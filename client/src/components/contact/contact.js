@@ -10,20 +10,22 @@ import Button from "react-bootstrap/Button";
 export const contact = () => {
   return (
     <div>
+      <h1> Contact Me!</h1>
       <Container>
         <Row>
           <Col>
             <Card className="text-center">
-              <Card.Header>Featured</Card.Header>
+              <Card.Header>My Contact Information</Card.Header>
               <Card.Body>
-                <Card.Title>Special title treatment</Card.Title>
                 <Card.Text>
-                  With supporting text below as a natural lead-in to additional
-                  content.
+                  <ul style={{ listStyle: "none" }}>
+                    <li>Email</li>
+                    <li>Linkedin</li>
+                    <li>Github</li>
+                  </ul>
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Button variant="dark">Resume Download</Button>
               </Card.Body>
-              <Card.Footer className="text-muted">2 days ago</Card.Footer>
             </Card>
           </Col>
           <Col>
@@ -39,9 +41,14 @@ export const contact = () => {
                 className="mb-3"
                 controlId="exampleForm.ControlTextarea1"
               >
-                <Form.Label>Example textarea</Form.Label>
+                <Form.Label>Comments/Additional Information</Form.Label>
                 <Form.Control as="textarea" rows={3} />
               </Form.Group>
+              <Col xs="auto" className="my-1">
+                <Button variant="dark" type="submit">
+                  Submit
+                </Button>
+              </Col>
             </Form>
           </Col>
         </Row>
