@@ -1,23 +1,24 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-// import Navbar from "react-bootstrap/Navbar";
-import { Navbar, Nav, Container } from "react-bootstrap";
-import("react-dom");
+// Import React Router Link component for internal hyperlinks
 
-class Navigationbar extends React.Component {
-  render() {
-    return (
-      <Navbar bg="light" variant="light">
+import Navbar from "react-bootstrap/Navbar";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+
+const NavBar = () => {
+  return (
+    <>
+      <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Adrian Auchterlonie</Navbar.Brand>
+          <Navbar.Brand href="/">Adrian Auchterlonie</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#AboutMe">About Me </Nav.Link>
-            <Nav.Link href="#Work">Work</Nav.Link>
-            <Nav.Link href="#Contact">Contact</Nav.Link>
+            <Nav.Link href="/aboutme">About Me</Nav.Link>
+            <Nav.Link href="/work">Projects</Nav.Link>
+            <Nav.Link href="/contact-me">Contact Me</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
-    );
-  }
-}
-export default Navigationbar;
+    </>
+  );
+};
+export default NavBar;

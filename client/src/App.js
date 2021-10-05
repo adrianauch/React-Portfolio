@@ -1,22 +1,51 @@
 import React from "react";
-import NavigationBar from "./components/Navbar/Navbar";
 import Footer from "./components/footer/footer";
-import Work from "./components/work/work";
-import Contact from "./components/contact/contact";
+import NavBar from "./components/Navbar/Navbar";
 import AboutMe from "./components/about/about";
+import Work from "./components/work/work";
+import ContactMe from "./components/contact/contact";
+
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  ApolloClient,
+  InMemoryCache,
+  ApolloProvider,
+  createHttpLink,
+  useQuery,
+  gql,
+} from "@apollo/client";
+import { setContext } from "@apollo/client/link/context";
+const client = new ApolloClient({
+  uri: "/graphql",
+  cache: new InMemoryCache(),
+});
 
 // In our main App component, we are rendering only single instances of Header and Navbar and several instances of Card
 function App() {
   return (
-    <div>
-      <NavigationBar />
-      <AboutMe />
+    <ApolloProvider client={client}>
+      <Router>
+        <NavBar />
+        <Route exact path="/aboutme">
+          <AboutMe />
+        </Route>
+        <Route exact path="/work">
+          <Work />
+        </Route>
+        <Route exact path="/contact-me">
+          <ContactMe />
+        </Route>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
 
-      <Work />
-      <Contact />
-
-      <Footer />
-    </div>
+        <Footer />
+      </Router>
+    </ApolloProvider>
   );
 }
 
