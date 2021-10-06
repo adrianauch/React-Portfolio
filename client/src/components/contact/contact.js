@@ -19,9 +19,27 @@ export const contact = () => {
               <Card.Body>
                 <Card.Text>
                   <ul style={{ listStyle: "none" }}>
-                    <li>Email</li>
-                    <li>Linkedin</li>
-                    <li>Github</li>
+                    <li>
+                      <Button variant="outline-dark">
+                        Email: adrian.auch11@gmail.com
+                      </Button>
+                    </li>
+                    <li>
+                      <Button
+                        href="https://www.linkedin.com/in/aauchterlonie/"
+                        variant="outline-dark"
+                      >
+                        LinkedIn
+                      </Button>
+                    </li>
+                    <li>
+                      <Button
+                        href="https://github.com/adrianauch"
+                        variant="outline-dark"
+                      >
+                        Github
+                      </Button>
+                    </li>
                   </ul>
                 </Card.Text>
                 <Button variant="dark">Resume Download</Button>

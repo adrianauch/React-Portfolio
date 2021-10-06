@@ -4,6 +4,7 @@ import NavBar from "./components/Navbar/Navbar";
 import AboutMe from "./components/about/about";
 import Work from "./components/work/work";
 import ContactMe from "./components/contact/contact";
+import Hero from "./components/hero";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import {
@@ -26,6 +27,10 @@ function App() {
     <ApolloProvider client={client}>
       <Router>
         <NavBar />
+        <Route exact path="/">
+          <Hero />
+        </Route>
+
         <Route exact path="/aboutme">
           <AboutMe />
         </Route>
