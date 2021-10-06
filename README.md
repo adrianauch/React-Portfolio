@@ -2,7 +2,7 @@
 
 Application is deployed links:
 
-https://adrianauch.github.io/updated-portfolio/
+https://adrianauch.github.io/React-Portfolio/#/
 
 ## Description:
 
@@ -16,7 +16,9 @@ npm i to install packages.
 
 The application is used as a personal portfolio, to showcase my work as a web developer to future employeers.
 
-![homescreen](assets/images/ex.png)
+![about me](client/public/Images/aboutme.png)
+![Projects](client/public/Images/contact.png)
+![contact](client/public/Images/projects.png)
 
 ## Credits:
 
