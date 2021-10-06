@@ -72,7 +72,7 @@ export const Work = () => {
               </Button>
               <Offcanvas show={show} onHide={handleClose}>
                 <Offcanvas.Header closeButton>
-                  <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+                  <Offcanvas.Title>Project Description</Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                   This command line application was generated to help a user
@@ -108,7 +108,7 @@ export const Work = () => {
 
               <Offcanvas show={show} onHide={handleClose}>
                 <Offcanvas.Header closeButton>
-                  <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+                  <Offcanvas.Title>Project Description</Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                   The web application will generate a password based on user
@@ -150,7 +150,7 @@ export const Work = () => {
 
               <Offcanvas show={show} onHide={handleClose}>
                 <Offcanvas.Header closeButton>
-                  <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+                  <Offcanvas.Title>Project Descriptions</Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                   NFT stands for non-fungible tokens. NFTs exist on the
@@ -194,7 +194,7 @@ export const Work = () => {
 
               <Offcanvas show={show} onHide={handleClose}>
                 <Offcanvas.Header closeButton>
-                  <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+                  <Offcanvas.Title>Project Description</Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                   The motivation behind creating this web application is to give
@@ -230,7 +230,7 @@ export const Work = () => {
 
               <Offcanvas show={show} onHide={handleClose}>
                 <Offcanvas.Header closeButton>
-                  <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+                  <Offcanvas.Title>Project Description</Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                   The application was created for a user to be able to track

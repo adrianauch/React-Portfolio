@@ -27,11 +27,11 @@ function App() {
     <ApolloProvider client={client}>
       <Router>
         <NavBar />
-        <Route exact path="/">
-          <Hero />
+        <Route exact path="/aboutme">
+          <AboutMe />
         </Route>
 
-        <Route exact path="/aboutme">
+        <Route exact path="/">
           <AboutMe />
         </Route>
         <Route exact path="/work">
