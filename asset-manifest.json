@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.js": "/React-Portfolio/static/js/main.7197afe0.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.7197afe0.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.8118fd29.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.8118fd29.js.map",
+    "static/css/2.f4878a83.chunk.css": "/React-Portfolio/static/css/2.f4878a83.chunk.css",
+    "static/js/2.529c809d.chunk.js": "/React-Portfolio/static/js/2.529c809d.chunk.js",
+    "static/js/2.529c809d.chunk.js.map": "/React-Portfolio/static/js/2.529c809d.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "static/css/2.f4878a83.chunk.css.map": "/React-Portfolio/static/css/2.f4878a83.chunk.css.map",
+    "static/js/2.529c809d.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.529c809d.chunk.js.LICENSE.txt",
+    "static/media/Delishery.8ea58b6e.png": "/React-Portfolio/static/media/Delishery.8ea58b6e.png",
+    "static/media/NFTy.acc02911.png": "/React-Portfolio/static/media/NFTy.acc02911.png",
+    "static/media/Weatherdash.fead18d9.png": "/React-Portfolio/static/media/Weatherdash.fead18d9.png",
+    "static/media/hoempage.0cdfeca0.png": "/React-Portfolio/static/media/hoempage.0cdfeca0.png",
+    "static/media/me1.42473cdb.jpg": "/React-Portfolio/static/media/me1.42473cdb.jpg",
+    "static/media/passwordgen.2c587710.png": "/React-Portfolio/static/media/passwordgen.2c587710.png",
+    "static/media/teamprofilegen.8f0e5a75.png": "/React-Portfolio/static/media/teamprofilegen.8f0e5a75.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8118fd29.js",
+    "static/css/2.f4878a83.chunk.css",
+    "static/js/2.529c809d.chunk.js",
+    "static/js/main.7197afe0.chunk.js"
+  ]
+}
