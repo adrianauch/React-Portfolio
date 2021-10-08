@@ -23,7 +23,7 @@ class BootstrapNavbar extends React.Component {
       <div>
         <div className="row">
           <div className="col-md-12">
-            <Router>
+            <Router basename={Process.env.PUBLIC_URL} >
               <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
                 <Navbar.Brand href="/">Adrian Auchterlonie</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -37,13 +37,13 @@ class BootstrapNavbar extends React.Component {
               </Navbar>
               <br />
               <Switch>
-                <Route path="/React-Portfolio">
+                <Route path="/">
                   <AboutMe />
                 </Route>
-                <Route  path="/React-Portfolio/works">
+                <Route  path="/works">
                   <Work />
                 </Route>
-                <Route path="React-Portfolio/contactme">
+                <Route path="/contactme">
                   <Contact />
                 </Route>
               </Switch>
