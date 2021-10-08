@@ -13,7 +13,6 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^5.1.2",
-    "gh-pages": "^3.2.3",
     "graphql": "^15.6.0",
     "i": "^0.3.7",
     "npm": "^7.24.2",
@@ -30,7 +29,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -54,5 +53,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://adrianauch.github.io/React-Portfolio/"
+  "homepage": "https://adrianauch.github.io/React-Portfolio/",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }
